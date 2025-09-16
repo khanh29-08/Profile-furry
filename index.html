@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="font.css">
+</head>
+
+<body>
+    <div class="home_section">
+        
+        <nav>
+            <button class="nav_contact_btn">Contact</button>
+            <span class="nav_name">Miêu Gia</span>
+        </nav>
+
+        
+        <div class="sub_hero_text">
+            Hi, welcome to my profile website!
+        </div>
+        <div class="final_page_text">
+            Thank you for visiting my profile!
+            
+        </div>
+
+            <button class="go_down">↓</button>
+        </div>
+    </div>
+    
+    <script>
+        document.querySelector('.go_down').onclick = function() {
+        document.querySelector('.about_section').scrollIntoView({ behavior: 'smooth' });
+    };
+    </script>
+
+    <div class="about_section">
+        <span class="whoami">Who am i ?</span>
+        <div class="about_me_text">
+            Hi everyone. Welcome to my profile website. I'm Hiroto Nakata or you can call me Miêu Gia. If you want to
+            know more about me, please contact me via Facebook or Discord. Links are on this. Thank you!
+            <br/ >
+            <br/ >
+            Fullname: Hiroto Nakata (Miêu Gia) <br/ >
+            Languages: Vietnamese  <br/ >
+            English (not fluent)
+            <br/ >
+            <a class="facebook" href="https://www.facebook.com/mieu.gia.624365?locale=vi_VN" target="_blank">Facebook</a>
+            <br/ >
+            <a class="discord" href="https://discord.com/users/1008234976573140992" target="_blank">Discord</a>
+            <br/ >
+            <a class="steam" href="https://s.team/p/hthw-twqj/NBQTGRWR" target="_blank">Steam</a>
+            <br/ >
+            <a class="gallery" href="javascript:void(0)" onclick="alert('Gallery đang được cập nhật!')" >Gallery</a>        
+        </div>
+        <div class="avatar"></div>
+    </div>
+
+</body>
+
+</html>
